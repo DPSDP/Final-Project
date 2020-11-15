@@ -44,6 +44,21 @@ namespace Projet_Final_DSDP
             }
 
         }
+        public T Dequeue()
+        {
+            if (this.Root != null)
+            {
+                T elt = this.Root.value;
+                this.Root = this.Root.next;
+                return elt;
+
+                
+            }
+            else
+            {
+                throw new ArgumentException("Custom Queue empty !");
+            }
+        }
 
 
         
