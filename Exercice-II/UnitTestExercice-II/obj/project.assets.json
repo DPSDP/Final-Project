@@ -1634,6 +1634,15 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "Exercice-II/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Exercice-II.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Exercice-II.dll": {}
+        }
       }
     }
   },
@@ -5705,10 +5714,16 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "Exercice-II/1.0.0": {
+      "type": "project",
+      "path": "../Exercice-II/Exercice-II.csproj",
+      "msbuildProject": "../Exercice-II/Exercice-II.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Exercice-II >= 1.0.0",
       "MSTest.TestAdapter >= 2.1.0",
       "MSTest.TestFramework >= 2.1.0",
       "Microsoft.NET.Test.Sdk >= 16.5.0",
@@ -5740,7 +5755,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\banan\\OneDrive\\Documents\\GitHub\\Final-Project\\Exercice-II\\Exercice-II\\Exercice-II.csproj": {
+              "projectPath": "C:\\Users\\banan\\OneDrive\\Documents\\GitHub\\Final-Project\\Exercice-II\\Exercice-II\\Exercice-II.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

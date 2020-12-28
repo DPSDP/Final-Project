@@ -4,6 +4,16 @@
     "C:\\Users\\banan\\OneDrive\\Documents\\GitHub\\Final-Project\\Exercice-II\\UnitTestExercice-II\\UnitTestExercice-II.csproj": {}
   },
   "projects": {
+    "C:\\Users\\banan\\OneDrive\\Documents\\GitHub\\Final-Project\\Exercice-II\\Exercice-II\\Exercice-II.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\banan\\OneDrive\\Documents\\GitHub\\Final-Project\\Exercice-II\\Exercice-II\\Exercice-II.csproj",
+        "projectName": "Exercice-II",
+        "projectPath": "C:\\Users\\banan\\OneDrive\\Documents\\GitHub\\Final-Project\\Exercice-II\\Exercice-II\\Exercice-II.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
     "C:\\Users\\banan\\OneDrive\\Documents\\GitHub\\Final-Project\\Exercice-II\\UnitTestExercice-II\\UnitTestExercice-II.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -26,7 +36,11 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\banan\\OneDrive\\Documents\\GitHub\\Final-Project\\Exercice-II\\Exercice-II\\Exercice-II.csproj": {
+                "projectPath": "C:\\Users\\banan\\OneDrive\\Documents\\GitHub\\Final-Project\\Exercice-II\\Exercice-II\\Exercice-II.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
