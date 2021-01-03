@@ -30,6 +30,15 @@ namespace Exercice_II
 
         public void Add(ArrayList individu)
         {
+            
+            for (int i = 0; i < individu.Count; i++)
+            {
+                string type = individu[i].GetType().Name;
+                if(type != ColumnsTypes[i])
+                {
+                    throw new ArgumentException();
+                }
+            }
             Row row = new Row(individu);
             _rows.Add(row);
         }

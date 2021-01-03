@@ -1,4 +1,5 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System;
 using System.Collections;
 
 namespace Exercice_II
@@ -30,6 +31,19 @@ namespace Exercice_II
             ArrayList individuB = new ArrayList() { "Citadine", "Citoën", "C3", 2019 };
             dataframe.Add(individuB);
             CollectionAssert.AreEquivalent(individuB, dataframe.getIndex(1));
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(ArgumentException))]
+        public void TestAppendInvalidRowToDataframe()
+        {
+            // Initialization
+            ArrayList firstRow = new ArrayList() { "Citadine", "Renault", "Clio", 2015 };
+            Dataframe dataframe = new Dataframe(firstRow);
+
+            // Test
+            ArrayList individuB = new ArrayList() { "Citadine", 23, "C3", 2019 };
+            dataframe.Add(individuB);
         }
     }
 }
