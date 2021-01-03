@@ -18,5 +18,18 @@ namespace Exercice_II
 
             CollectionAssert.AreEquivalent(firstRow, dataframe.getIndex(0));
         }
+
+        [TestMethod]
+        public void TestAppendRowToDataframe()
+        {
+            // Initialization
+            ArrayList firstRow = new ArrayList() { "Citadine", "Renault", "Clio", 2015 };
+            Dataframe dataframe = new Dataframe(firstRow);
+
+
+            ArrayList individuB = new ArrayList() { "Citadine", "Citoën", "C3", 2019 };
+            dataframe.Add(individuB);
+            CollectionAssert.AreEquivalent(individuB, dataframe.getIndex(1));
+        }
     }
 }

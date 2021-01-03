@@ -27,5 +27,11 @@ namespace Exercice_II
         {
             return _rows[i].elements;
         }
+
+        public void Add(ArrayList individu)
+        {
+            Row row = new Row(individu);
+            _rows.Add(row);
+        }
     }
 }
