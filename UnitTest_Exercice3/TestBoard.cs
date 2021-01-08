@@ -19,5 +19,13 @@ namespace Projet_Final_DSDP_EX3
             Assert.AreEqual("Sarah", board._Players[2].alias);
         }
 
+        [TestMethod]
+        public void TestBoardCurrentplayerNumDefinition()
+        {
+            List<string> PlayersNames = new List<string>() { "Tom", "Emma", "Sarah" };
+            Board board = new Board(PlayersNames);
+
+            Assert.AreEqual(0, board._currentplayerNum);
+        }
     }
 }
