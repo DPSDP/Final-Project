@@ -7,15 +7,16 @@ using System.Threading.Tasks;
 
 namespace Projet_Final_DSDP_EX3
 {
-    class Board
+    public class Board
     {
-        List<Player> _Players { get;  }
-        int _currentplayerNum { get; set; }
+        public List<Player> _Players { get;  }
+        public int _currentplayerNum { get; set; }
         
         Observer_Dices O_Dice = new Observer_Dices();
 
         public Board(List<string> PlayersNames)
         {
+            _Players = new List<Player>();
             foreach(string name in PlayersNames)
             {
                 Player p = new Player(name);

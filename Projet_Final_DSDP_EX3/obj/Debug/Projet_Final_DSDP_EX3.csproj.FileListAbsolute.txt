@@ -5,3 +5,10 @@ C:\Users\33659\source\repos\Projet_Final_DSDP_EX3\Projet_Final_DSDP_EX3\obj\Debu
 C:\Users\33659\source\repos\Projet_Final_DSDP_EX3\Projet_Final_DSDP_EX3\obj\Debug\Projet_Final_DSDP_EX3.csproj.CoreCompileInputs.cache
 C:\Users\33659\source\repos\Projet_Final_DSDP_EX3\Projet_Final_DSDP_EX3\obj\Debug\Projet_Final_DSDP_EX3.exe
 C:\Users\33659\source\repos\Projet_Final_DSDP_EX3\Projet_Final_DSDP_EX3\obj\Debug\Projet_Final_DSDP_EX3.pdb
+C:\Users\banan\OneDrive\Documents\GitHub\Final-Project\Projet_Final_DSDP_EX3\bin\Debug\Projet_Final_DSDP_EX3.exe.config
+C:\Users\banan\OneDrive\Documents\GitHub\Final-Project\Projet_Final_DSDP_EX3\bin\Debug\Projet_Final_DSDP_EX3.exe
+C:\Users\banan\OneDrive\Documents\GitHub\Final-Project\Projet_Final_DSDP_EX3\bin\Debug\Projet_Final_DSDP_EX3.pdb
+C:\Users\banan\OneDrive\Documents\GitHub\Final-Project\Projet_Final_DSDP_EX3\obj\Debug\Projet_Final_DSDP_EX3.csprojAssemblyReference.cache
+C:\Users\banan\OneDrive\Documents\GitHub\Final-Project\Projet_Final_DSDP_EX3\obj\Debug\Projet_Final_DSDP_EX3.csproj.CoreCompileInputs.cache
+C:\Users\banan\OneDrive\Documents\GitHub\Final-Project\Projet_Final_DSDP_EX3\obj\Debug\Projet_Final_DSDP_EX3.exe
+C:\Users\banan\OneDrive\Documents\GitHub\Final-Project\Projet_Final_DSDP_EX3\obj\Debug\Projet_Final_DSDP_EX3.pdb
