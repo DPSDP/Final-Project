@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Projet_Final_DSDP_EX3
 {
-    class Dice
+    public class Dice
     {
 
          static Random numgen = new Random();

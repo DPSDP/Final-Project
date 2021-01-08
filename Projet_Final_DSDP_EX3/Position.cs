@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace Projet_Final_DSDP_EX3
 {
-   public class Position
+   public class Position:ISubject
     {// in this class there are 40 circular positions (0-39) meaning that once the player reaches 39 it goes all the way back to 0 
-        int numPos { get; set; }//position number
+        public int numPos { get; set; }//position number
+        private static List<IObserver> _observers = new List<IObserver>();
         public Position()
         {
             this.numPos = 0;
@@ -16,46 +17,29 @@ namespace Projet_Final_DSDP_EX3
         public Position(int numPos)
         {
             this.numPos = numPos;
+            Observer_JailOrNot  O_JailOrNot=new Observer_JailOrNot();
+            this.Attach(O_JailOrNot);
         }
-
-        /// <summary>
-        /// JailOrNot
-        /// </summary>
-        /// <param name="p">Player that we want to know if they're in Jail or Not</param>
-        /// <returns></returns>
-        public static bool  JailOrNot(Player p) //Position pos 
-        {
-            bool res;
-            if (Position.MoveForward(p) == 30 )
-            {
-                res = true;
-
-            }
-            else
-            {
-                res = false;
-            }
-
-            return res;
-        }
-        /// <summary>
-        /// MoveForward
-        /// </summary>
-        /// <param name="p"> player that is moving forward</param>
-        /// <param name="d">the dices that will be thrown</param>
+        
        
-        public static int MoveForward(Player p)
+
+        // The subscription management methods.
+        public void Attach(IObserver observer)
         {
-            Dices d = new Dices();
-           
-                p.pos.numPos  += d.RollingResult()%40;
- 
-            return p.pos.numPos;
+
+            _observers.Add(observer);
         }
 
+       
+        public void Notify()
+        {
+            foreach (var observer in _observers)
+            {
+                observer.Update(this.numPos);
+            }
+        }
 
-
-
+        
 
 
 
