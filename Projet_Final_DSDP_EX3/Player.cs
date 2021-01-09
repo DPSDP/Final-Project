@@ -16,7 +16,7 @@ namespace Projet_Final_DSDP_EX3
         {
             this.alias = alias;
             this.Injail = false;
-            this.pos = new Position(); //A modifier
+            this.pos = new Position();
 
 
         }
