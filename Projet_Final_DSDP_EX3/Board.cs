@@ -40,13 +40,6 @@ namespace Projet_Final_DSDP_EX3
         {
             O_Dice.UpdatePlayerChange();
         }
-        static void Main(string[] args)
-        {
-            
-
-            Console.ReadKey();
-        }
-
     }
     
 }
