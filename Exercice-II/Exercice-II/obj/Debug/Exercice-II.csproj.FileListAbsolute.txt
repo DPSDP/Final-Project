@@ -1,0 +1,7 @@
+C:\Users\banan\OneDrive\Documents\GitHub\Final-Project\Exercice-II\Exercice-II\bin\Debug\Exercice-II.exe.config
+C:\Users\banan\OneDrive\Documents\GitHub\Final-Project\Exercice-II\Exercice-II\bin\Debug\Exercice-II.exe
+C:\Users\banan\OneDrive\Documents\GitHub\Final-Project\Exercice-II\Exercice-II\bin\Debug\Exercice-II.pdb
+C:\Users\banan\OneDrive\Documents\GitHub\Final-Project\Exercice-II\Exercice-II\obj\Debug\Exercice-II.csprojAssemblyReference.cache
+C:\Users\banan\OneDrive\Documents\GitHub\Final-Project\Exercice-II\Exercice-II\obj\Debug\Exercice-II.csproj.CoreCompileInputs.cache
+C:\Users\banan\OneDrive\Documents\GitHub\Final-Project\Exercice-II\Exercice-II\obj\Debug\Exercice-II.exe
+C:\Users\banan\OneDrive\Documents\GitHub\Final-Project\Exercice-II\Exercice-II\obj\Debug\Exercice-II.pdb
