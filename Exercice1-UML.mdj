@@ -166,7 +166,11 @@
 											"top": 165,
 											"width": 174,
 											"height": 13,
+<<<<<<< Updated upstream
 											"text": "+Queue()",
+=======
+											"text": "+Enqueue()",
+>>>>>>> Stashed changes
 											"horizontalAlignment": 0
 										},
 										{
@@ -736,7 +740,12 @@
 							"_parent": {
 								"$ref": "AAAAAAF1y/wrY/sHFNI="
 							},
+<<<<<<< Updated upstream
 							"name": "Root"
+=======
+							"name": "Root",
+							"type": ""
+>>>>>>> Stashed changes
 						}
 					],
 					"operations": [
@@ -746,7 +755,11 @@
 							"_parent": {
 								"$ref": "AAAAAAF1y/wrY/sHFNI="
 							},
+<<<<<<< Updated upstream
 							"name": "Queue"
+=======
+							"name": "Enqueue"
+>>>>>>> Stashed changes
 						},
 						{
 							"_type": "UMLOperation",
@@ -805,7 +818,12 @@
 							"_parent": {
 								"$ref": "AAAAAAF1y/xl4PsxdDE="
 							},
+<<<<<<< Updated upstream
 							"name": "Next"
+=======
+							"name": "Next",
+							"type": ""
+>>>>>>> Stashed changes
 						},
 						{
 							"_type": "UMLAttribute",
@@ -813,7 +831,12 @@
 							"_parent": {
 								"$ref": "AAAAAAF1y/xl4PsxdDE="
 							},
+<<<<<<< Updated upstream
 							"name": "Value"
+=======
+							"name": "Value",
+							"type": ""
+>>>>>>> Stashed changes
 						}
 					]
 				}
