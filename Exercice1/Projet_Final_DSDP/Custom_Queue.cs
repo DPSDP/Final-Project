@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Projet_Final_DSDP
 {
-    class Custom_Queue<T>
+    public class Custom_Queue<T>
     {
         public Node<T> Root { get; set; }
         public Node<T> LastNode { get; set; }
@@ -44,6 +44,7 @@ namespace Projet_Final_DSDP
             }
 
         }
+
         public T Dequeue()
         {
             if (this.Root != null)

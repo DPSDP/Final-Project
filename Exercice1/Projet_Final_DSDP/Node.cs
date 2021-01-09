@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Projet_Final_DSDP
 {
-    class Node<T>
+    public class Node<T>
     {
         public T value { get; set; }
         public Node<T> next { get; set; }
